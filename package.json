@@ -1,5 +1,8 @@
 {
-  "devDependencies": {
-    "@tailwindcss/line-clamp": "^0.4.4"
-  }
+   "scripts": {
+      "start": "npx tailwindcss -o tailwind.css --content index.html --watch"
+   },
+   "devDependencies": {
+      "@tailwindcss/line-clamp": "^0.4.4"
+   }
 }
